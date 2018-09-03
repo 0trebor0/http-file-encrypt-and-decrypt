@@ -1,0 +1,27 @@
+<head>
+    <title>Encrypt and Decrypt File</title>
+</head>
+<body>
+    <center>
+        <h1>File Encrypt</h1>
+        <form action="encryptFile" name="fileUpload" method="post" enctype="multipart/form-data" onsubmit="return checkFormEmpty()">
+            <p><input type="file" name="fileHere"></p>
+            <p>DEFAULT: password<input type="text" name="password" placeholder="Type Password"></p>
+            <input type="submit">
+        </form>
+        <h1>File Decrypt</h1>
+        <form action="decryptFile" name="fileUpload" method="post" enctype="multipart/form-data" onsubmit="return checkFormEmpty()">
+            <p><input type="file" name="fileHere"></p>
+            <p>DEFAULT: password<input type="text" name="password" placeholder="Type Password"></p>
+            <input type="submit">
+        </form>
+    </center>
+    <script>
+        function checkFormEmpty(){
+            if(document.forms['fileUpload']['filetoupload'].value == null || document.forms['fileUpload']['filetoupload'].value ==''){
+                alert("Please Select File");
+                return false;
+            }
+        }
+    </script>
+</body>

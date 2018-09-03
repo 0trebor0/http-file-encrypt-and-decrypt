@@ -1,0 +1,21 @@
+{
+  "name": "http-upload-file-encryption",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "formidable": "^1.2.1",
+    "mime-types": "^2.1.20",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.0",
+    "crypto": "^1.0.1",
+    "npm": "^6.4.1",
+    "form-data": "^2.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
