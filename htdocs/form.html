@@ -4,13 +4,13 @@
 <body>
     <center>
         <h1>File Encrypt</h1>
-        <form action="encryptFile" name="fileUpload" method="post" enctype="multipart/form-data" onsubmit="return checkFormEmpty()">
+        <form action="encryptFile" name="fileUpload" method="post" enctype="multipart/form-data" onsubmit="return checkFormEmpty()" autocomplete="off">
             <p><input type="file" name="fileHere"></p>
             <p>DEFAULT: password<input type="text" name="password" placeholder="Type Password"></p>
             <input type="submit">
         </form>
         <h1>File Decrypt</h1>
-        <form action="decryptFile" name="fileUpload" method="post" enctype="multipart/form-data" onsubmit="return checkFormEmpty()">
+        <form action="decryptFile" name="fileUpload" method="post" enctype="multipart/form-data" onsubmit="return checkFormEmpty()" autocomplete="off">
             <p><input type="file" name="fileHere"></p>
             <p>DEFAULT: password<input type="text" name="password" placeholder="Type Password"></p>
             <input type="submit">

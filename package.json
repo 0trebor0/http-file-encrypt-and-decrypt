@@ -2,7 +2,14 @@
   "name": "http-upload-file-encryption",
   "version": "1.0.0",
   "main": "main.js",
-  "dependencies": {},
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "formidable": "^1.2.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "mime-types": "^2.1.21",
+    "url": "^0.11.0"
+  },
   "devDependencies": {},
   "scripts": {
     "start": "node main.js"
